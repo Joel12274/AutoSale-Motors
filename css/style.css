@@ -85,6 +85,7 @@ body {
 .header__container {
     text-align: center;
     display: flex;
+    padding-top: 0;
 }
 
 .header__text {
