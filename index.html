@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoSale Motors</title>
+    <!-- Carga optimizada de la fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- favicon en distintos tamaños -->
+    <link rel="icon" type="image/x-icon" href="images/header/icono.ico">
+    <link rel="icon" sizes="192x192" href="images/header/logo.webp">
+    
+    <!-- Enlace a los estilos CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- SEO -->
+    <meta name="description" content="AutoSale Motors - Encuentra los mejores autos nuevos y de segunda mano con calidad garantizada.">
+    <meta name="keywords" content="autos, venta de autos, autos usados, concesionaria, importadora, autos nuevos, autos seminuevos, autos de segunda mano">
+    <meta name="author" content="AutoSale Motors">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:locale" content="es_LA">
+    <meta property="og:title" content="AutoSale Motors">
+    <meta property="og:description" content="Encuentra los mejores autos nuevos y seminuevos con la mejor calidad y garantía.">
+    <!-- Reemplazar con una imagen optimizada y adecuada para redes sociales -->
+    <meta property="og:image" content="https://joel12274.github.io/AutoSale-Motors/images/header/logo-autosale.webp">
+    <meta property="og:url" content="https://joel12274.github.io/AutoSale-Motors/">
+    <meta property="og:type" content="website">
+
+    <!-- Agregar JS deferido para no bloquear la carga de la página -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="header" id="start">
+        <img src="images/header/baner.webp" alt="Banner de AutoSale Motors" class="header__banner">
+        <nav class="nav">
+            <div class="nav__container">
+                <div class="nav__logo">
+                    <img src="images/header/logo.webp" alt="Logo de AutoSale Motors">
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#start" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Nuestra Historia</a></li>
+                    <li class="nav__item--img" aria-hidden="true"></li>
+                    <li class="nav__item"><a href="#catalog" class="nav__link">Vehículos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contactos</a></li>
+                    <img loading="lazy" class="nav__close" src="images/header/close.svg" alt="Cerrar menú de navegación">
+                </ul>
+                <div class="nav__menu">
+                    <img class="menu" src="images/header/menu.svg" alt="Menú de navegación">
+                </div>
+            </div>
+        </nav>
+        <section class="header__container container">
+            <div class="header__image">
+                    <img src="images/header/minibus-foton.webp" alt="imagen de un auto foton view c2">
+            </div>
+            <div class="header__text">
+                <h1 class="header__title">AUTO<span>SALE</span> MOTORS</h1>
+                <h2 class="header__subtitle">"Autos nuevos y Seminuevos para cada estilo de vida"</h2>
+                <p class="header__paragraph">"Vende o compra tu auto con confianza. Te ofrecemos opciones de alta calidad, respaldo en cada compra y atención personalizada para que tomes la mejor decisión"</p>
+                <a class="btn" href="#catalog" role="button">Ver Vehículos</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Sección de Categorías -->
+        <section class="category container">
+            <h2 class="category__subtitle">Categorías de Vehículos</h2>
+            <p class="category__paragraph">Explora nuestra amplia gama de vehículos</p>
+            <div class="category__container">
+                <a href="#catalog" class="category__icons" aria-label="Ver todos los autos en la Sección de vehículos" role="button">
+                    <img src="images/category/nuevos-icon.ico" alt="Icono de vehículos nuevos">
+                    <h3>Nuevos</h3>
+                </a>
+                <a href="#catalog" class="category__icons" aria-label="Ver todos los autos en la Sección de vehículos" role="button">
+                    <img src="images/category/usados-icon.ico" alt="Icono de vehículos usados">
+                    <h3>Seminuevos</h3>
+                </a>
+                <a href="#catalog" class="category__icons" aria-label="Ver todos los autos en la Sección de vehículos" role="button">
+                    <img src="images/category/minibus-icon.ico" alt="Icono de minibus">
+                    <h3>Trufis</h3>
+                </a>
+                <a href="#catalog" class="category__icons" aria-label="Ver todos los autos en la Sección de vehículos" role="button">
+                    <img src="images/category/taxi-icon.ico" alt="Icono de vehículos deportivos">
+                    <h3>Taxis</h3>
+                </a>
+                <a href="#catalog" class="category__icons" aria-label="Ver todos los autos en la Sección de vehículos" role="button">
+                    <img src="images/category/vagonetas-icon.ico" alt="Icono de vagonetas">
+                    <h3>Vagonetas</h3>
+                </a>
+                <a href="#catalog" class="category__icons" aria-label="Ver todos los autos en la Sección de vehículos" role="button">
+                    <img src="images/category/camion-icon.ico" alt="Icono de camion">
+                    <h3>Camiones</h3>
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Nosotros -->
+        <section class="abou show" id="about">
+            <div class="about__container container">
+                <div class="about__texts">
+                    <h2 class="about__subtitle">AutoSale Motors</h2>
+                    <h3>Tu Mejor Opción para Autos Nuevos y de Segunda Mano</h3>
+                    <p class="about__paragraph">En AutoSale Motors, creemos en la importancia de construir relaciones duraderas con nuestros clientes, por eso nos esforzamos por ofrecer precios competitivos, un excelente servicio postventa y una atención al cliente excepcional.</p>
+                    <p class="about__paragraph">Gracias por confiar en nosotros. ¡Tu próximo auto está aquí, y estamos listos para ayudarte a hacerlo tuyo!</p>
+                </div>
+                <figure class="about__picture">
+                    <img loading="lazy" src="images/about/about-img.webp" alt="Exterior de la tienda AutoSale Motors mostrando vehículos">
+                </figure>
+            </div>
+        </section>
+
+        <!-- Sección de Servicios -->
+        <section class="service container" id="service">
+            <h2 class="service__title">Asesoramiento Financiero</h2>
+            <p class="service__paragraph">Te ayudamos a conseguir el crédito bancario ideal para que puedas comprar tu vehículo sin complicaciones</p>
+            <div class="service__main">
+                <img loading="lazy" src="images/service/img-asesoramiento.jpg" alt="Imagen que ilustra asesoramiento financiero para la compra de vehículos">
+                <ul>
+                    <li><strong>Evaluación de opciones:</strong> Buscamos el crédito adecuado para ti.</li>
+                    <li><strong>Requisitos y documentación:</strong> Te orientamos sobre lo necesario.</li>
+                    <li><strong>Acompañamiento en el trámite:</strong> Te guiamos hasta la aprobación.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="service container" id="service">
+            <h2 class="service__title">Servicio Posventa</h2>
+            <p class="service__paragraph">Ofrecemos soporte técnico especializado para mantener tu vehículo en las mejores condiciones después de la compra.</p>
+            <div class="service__main">
+                <img loading="lazy" src="images/service/img-tecnico.jpg" alt="Imagen que muestra a un técnico realizando mantenimiento a un vehículo">
+                <ul>
+                    <li><strong>Mantenimiento preventivo:</strong> Revisiones periódicas para alargar la vida útil de tu vehículo.</li>
+                    <li><strong>Reparaciones especializadas:</strong> Solución de fallas mecánicas y eléctricas con expertos.</li>
+                    <li><strong>Asesoramiento técnico:</strong> Resolvemos dudas sobre el uso y cuidado de tu vehículo.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Sección de Catálogo -->
+        <section class="catalog container" id="catalog">
+            <h2 class="catalog__title">Vehículos</h2>
+            <p class="catalog__paragraph">Explora nuestra amplia gama de vehículos</p>
+            <!-- Filtros por estado -->
+            <div class="filters">
+                <h3 class="filter__title">Estado:</h3>
+                <button class="filter__btn filter__btn--state filter__btn--active" data-filter="todos">Todos</button>
+                <button class="filter__btn filter__btn--state" data-filter="seminuevo">Seminuevos</button>
+                <button class="filter__btn filter__btn--state" data-filter="nuevo">Nuevos</button>
+            </div> 
+            <!-- Filtros por tipo -->
+            <div class="filters">
+                <h3 class="filter__title">Tipo:</h3>
+                <button class="filter__btn filter__btn--type filter__btn--active" data-filter="todos">Todos</button>
+                <button class="filter__btn filter__btn--type" data-filter="taxis">Taxis</button>
+                <button class="filter__btn filter__btn--type" data-filter="trufis">Trufis</button>
+                <button class="filter__btn filter__btn--type" data-filter="camiones">Camiones</button>
+                <button class="filter__btn filter__btn--type" data-filter="vagonetas">Vagonetas</button>
+            </div>
+            <div class="catalog__container">
+                <!-- tarjeta de vehículo trufi -->
+                <article class="catalog__card trufis nuevo">
+                    <img loading="lazy" src="images/catalog/Foton View CS2/1.webp" alt="Foton View CS2 color Blanco" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Foton</h3>
+                        <P class="catalog__card-paragraph">View CS2 Royal SALOON</P>
+                        <p class="catalog__card-paragraph">2025</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Foton View CS2/1.webp", "images/catalog/Foton View CS2/2.webp", "images/catalog/Foton View CS2/3.webp"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+                <article class="catalog__card trufis nuevo">
+                    <img loading="lazy" src="images/catalog/Foton View C2/1.webp" alt="Foton View CS color Blanco" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Foton</h3>
+                        <P class="catalog__card-paragraph">View C2</P>
+                        <p class="catalog__card-paragraph">2025</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Foton View C2/1.webp", "images/catalog/Foton View C2/2.webp", "images/catalog/Foton View C2/3.webp"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+                <article class="catalog__card trufis seminuevo">
+                    <img loading="lazy" src="images/catalog/King long super GLS/1.webp" alt="King long super GLS color Blanco" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">King Long</h3>
+                        <P class="catalog__card-paragraph">Super GL</P>
+                        <p class="catalog__card-paragraph">2022</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/King long super GLS/1.webp", "images/catalog/King long super GLS/2.webp", "images/catalog/King long super GLS/3.webp"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+                <article class="catalog__card trufis seminuevo">
+                    <img loading="lazy" src="images/catalog/King long bufalo/1.webp" alt="King long bufalo plomo" class="catalog__img" data-id="1"/>
+                    <div>
+                        <h3 class="catalog__card-title">King Long</h3>
+                        <P class="catalog__card-paragraph">Búfalo</P>
+                        <p class="catalog__card-paragraph">2020</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/King long bufalo/1.webp", "images/catalog/King long bufalo/2.webp", "images/catalog/King long bufalo/3.webp"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+
+
+                <!-- tarjetas de vehículos taxis -->
+                <article class="catalog__card taxis seminuevo">
+                    <img loading="lazy" src="images/catalog/Toyota Corolla/1.webp" alt="Toyota Corolla color" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Toyota</h3>
+                        <P class="catalog__card-paragraph">Corolla</P>
+                        <p class="catalog__card-paragraph">1999</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Toyota Corolla/1.webp", "images/catalog/Toyota Corolla/2.webp", "images/catalog/Toyota Corolla/3.webp"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+                <article class="catalog__card taxis seminuevo">
+                    <img loading="lazy" src="images/catalog/Toyota Caldina UX/1.jpg" alt="Toyota Caldina UX color negro" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Toyota</h3>
+                        <P class="catalog__card-paragraph">Caldina</P>
+                        <p class="catalog__card-paragraph">1999</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Toyota Caldina UX/1.jpg", "images/catalog/Toyota Caldina UX/2.jpg", "images/catalog/Toyota Caldina UX/3.jpg"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+
+
+                <!-- tarjetas de vehículos vagonetas -->
+                <article class="catalog__card vagonetas nuevo">
+                    <img loading="lazy" src="images/catalog/Helmarv H60 mpv/1.jpg" alt="Helmarv h60 color blanco" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Helmarv</h3>
+                        <P class="catalog__card-paragraph">H60 mpv</P>
+                        <p class="catalog__card-paragraph">2025</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Helmarv H60 mpv/1.jpg", "images/catalog/Helmarv H60 mpv/2.jpg", "images/catalog/Helmarv H60 mpv/3.jpg"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+                <article class="catalog__card vagonetas nuevo">
+                    <img loading="lazy" src="images/catalog/Helmarv H60 mpv rojo/1.jpg" alt="Helmarv H60 color rojo" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Helmarv</h3>
+                        <P class="catalog__card-paragraph">H60</P>
+                        <p class="catalog__card-paragraph">2025</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Helmarv H60 mpv rojo/1.jpg", "images/catalog/Helmarv H60 mpv rojo/2.jpg", "images/catalog/Helmarv H60 mpv rojo/3.jpg"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+                <article class="catalog__card vagonetas seminuevo">
+                    <img loading="lazy" src="images/catalog/Nissan Murano/1.webp" alt="Nissan Murano" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Nissan</h3>
+                        <P class="catalog__card-paragraph">Murano</P>
+                        <p class="catalog__card-paragraph">2017</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Nissan Murano/1.webp", "images/catalog/Nissan Murano/2.jpg", "images/catalog/Nissan Murano/3.jpg"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article> 
+                <article class="catalog__card vagonetas seminuevo">
+                    <img loading="lazy" src="images/catalog/Nissan Versa Note/1.jpg" alt="Nissan Versa Note" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Nissan</h3>
+                        <P class="catalog__card-paragraph">Versa Note</P>
+                        <p class="catalog__card-paragraph">2016</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Nissan Versa Note/1.jpg", "images/catalog/Nissan Versa Note/2.jpg", "images/catalog/Nissan Versa Note/3.jpg"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article> 
+
+                <!-- tarjetas de vehículos camionetas -->
+                <article class="catalog__card camiones nuevo">
+                    <img loading="lazy" src="images/catalog/Foday Luxury/1.webp" alt="Foday Luxury" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Foday</h3>
+                        <P class="catalog__card-paragraph">Luxury</P>
+                        <p class="catalog__card-paragraph">2025</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Foday Luxury/1.webp", "images/catalog/Foday Luxury/2.webp", "images/catalog/Foday Luxury/3.avif"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+                <article class="catalog__card camiones seminuevo">
+                    <img loading="lazy" src="images/catalog/Foton Aumark/1.jpg" alt="Foton Aumark" class="catalog__img" data-id="1" />
+                    <div>
+                        <h3 class="catalog__card-title">Foton</h3>
+                        <P class="catalog__card-paragraph">Aumark</P>
+                        <p class="catalog__card-paragraph">2022</p>
+                        <!-- El atributo data-images contiene las rutas de las imágenes para este artículo -->
+                        <button class="btn btn-details" data-id="1" data-images='["images/catalog/Foton Aumark/1.jpg", "images/catalog/Foton Aumark/2.jpg", "images/catalog/Foton Aumark/3.webp"]'>Ver</button>
+                        <a class="btn btn--consult" href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">Cotizar</a>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- Modal -->
+            <div id="imageModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span> <!-- Botón de cierre -->
+                    <!-- Imagen que se muestra en el modal -->
+                    <div class="modal__image">
+                        <img loading="lazy" id="modalImage" src="" alt="Imagen del modal">
+                    </div>
+                    <!-- Botones de navegación -->
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                    <!-- Puntos indicadores -->
+                    <div id="dots" class="dots"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección de testimonio -->
+        <section class="testimonials container">
+            <h2 class="testimonial__title">Clientes que confiaron en nosotros</h2>
+            <div class="testimonial__container">
+              <div class="testimonial">
+                <img src="cliente1.jpg" alt="Cliente 1">
+              </div>
+                <div class="testimonial">
+                    <img src="cliente2.jpg" alt="Cliente 2">
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="contact container" id="contact">
+            <h2 class="contact__title">Contacto</h2>
+            <p class="contact__paragraph">"Queremos ayudarte a tomar la mejor decisión." Si necesitas más información sobre nuestros vehículos, financiamiento o cualquier otro detalle, no dudes en escribirnos. Estamos listos para atenderte y ofrecerte la mejor experiencia en la compra de tu auto."</p>
+            <div class="contact__container container">
+                <div class="contact__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d673.0589691866637!2d-66.19028821750958!3d-17.39274986154526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-17.392774!2d-66.1903054!5e0!3m2!1ses!2sbo!4v1738322163670!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación de AutoSale Motors en Google Maps"></iframe>
+                </div>  
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <img loading="lazy" src="images/contact/gps.svg" alt="Icono de ubicación">
+                        <a href="https://maps.app.goo.gl/7SXvT1d8AjFh8r1t9" target="_blank" rel="noreferrer noopener">Av. Blanco Galindo, Km. 3 ½, acera Norte, esq. A. Domínguez - COCHABAMBA</a>
+                    </div>
+                    <div class="contact__item">
+                        <img loading="lazy" src="images/contact/facebook.svg" alt="Icono de Facebook">
+                        <a href="https://www.facebook.com/profile.php?id=100065168436242" target="_blank" rel="noreferrer noopener">AutoSale Motors</a>
+                    </div>
+                    <div class="contact__item">
+                        <img loading="lazy" src="images/contact/social.svg" alt="Icono de WhatsApp">
+                        <a href="https://wa.me/+59164850446?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">+591 64850446</a>
+                    </div>
+                    <div class="contact__item">
+                        <img loading="lazy" src="images/contact/social.svg" alt="Icono de WhatsApp">
+                        <a href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener">+591 69486696</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <figure class="footer__logo">
+                <img loading="lazy" src="images/header/logo.webp" alt="Logo AutoSale Motors">
+            </figure>
+            <h4>¿Buscas un auto nuevo o seminuevo? Encuentra el mejor precio y la mejor calidad con nosotros.</h4>
+            <div class="footer__links">
+                <h3 class="footer__subtitle">Enlaces Rápidos</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#start" class="footer__link" rel="noopener noreferrer">Inicio</a></li>
+                    <li class="footer__item"><a href="#about" class="footer__link" rel="noopener noreferrer">Sobre Nosotros</a></li>
+                    <li class="footer__item"><a href="#service" class="footer__link" rel="noopener noreferrer">Servicios</a></li>
+                    <li class="footer__item"><a href="#catalog" class="footer__link" rel="noopener noreferrer">Catálogo</a></li>
+                    <li class="footer__item"><a href="#contact" class="footer__link" rel="noopener noreferrer">Contactos</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h3 class="footer__subtitle">Contáctanos</h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <img loading="lazy" class="footer__item--maps" src="images/contact/gps.svg" alt="Icono de ubicación">
+                        <a href="https://maps.app.goo.gl/7SXvT1d8AjFh8r1t9" target="_blank" rel="noreferrer noopener" class="footer__link">Av. Blanco Galindo, Km. 3 ½, acera Norte, esq. A. Domínguez - COCHABAMBA</a>
+                    </li>
+                    <li class="footer__item">
+                        <img loading="lazy" src="images/contact/facebook.svg" alt="Icono de Facebook">
+                        <a href="https://www.facebook.com/profile.php?id=100065168436242" target="_blank" rel="noreferrer noopener" class="footer__link">AutoSale Motors</a>
+                    </li>
+                    <li class="footer__item">
+                        <img loading="lazy" src="images/contact/social.svg" alt="Icono de WhatsApp">
+                        <a href="https://wa.me/+59164850446?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener" class="footer__link">+591 64850446</a>
+                    </li>
+                    <li class="footer__item">
+                        <img loading="lazy" src="images/contact/social.svg" alt="Icono de WhatsApp">
+                        <a href="https://wa.me/+59169486696?text=Hola%20me%20interesa%20más%20información" target="_blank" rel="noreferrer noopener" class="footer__link">+591 69486696</a>
+                    </li>
+                </ul>
+                <a class="des footer__link" href="https://wa.me/+59167456573?text=Hola,%20me%20interesa%20una%20página%20web%20para%20mi%20negocio" target="_blank" rel="noreferrer noopener">Desarrollado por Bismarck J. Escalera</a>
+            </div>
+            
+        </div>
+        <p>&copy; 2025 AutoSale Motors. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
