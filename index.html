@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoSale Motors</title>
+    
+    <title>AutoSale Motors - Concesionaria de Autos Usados y Nuevos | AutoSale</title>
+    
     <!-- Carga optimizada de la fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,22 +19,51 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- SEO -->
-    <meta name="description" content="AutoSale Motors - Encuentra los mejores autos nuevos y de segunda mano con calidad garantizada.">
-    <meta name="keywords" content="autos, venta de autos, autos usados, concesionaria, importadora, autos nuevos, autos seminuevos, autos de segunda mano">
+    <!-- Metaetiquetas SEO -->
+    <meta name="description" content="AutoSale Motors - La concesionaria líder en venta de autos usados, seminuevos y nuevos. Encuentra tu vehículo ideal con garantía y financiamiento en AutoSale.">
+    <meta name="keywords" content="autosale, autosalemotors, auto sale motors, autos usados, venta de autos, concesionaria, importadora, autos nuevos, autos seminuevos, carros usados, vehículos">
     <meta name="author" content="AutoSale Motors">
     <meta name="robots" content="index, follow">
+    
+    <!-- CANONICAL URL - Importante para evitar contenido duplicado -->
+    <link rel="canonical" href="https://autosalemotors.netlify.app/">
 
-    <!-- Open Graph / Facebook / WhatsApp -->
+    <!-- Open Graph para redes sociales -->
     <meta property="og:locale" content="es_LA">
-    <meta property="og:title" content="AutoSale Motors">
-    <meta property="og:description" content="Encuentra los mejores autos nuevos y seminuevos con la mejor calidad y garantía.">
-    <!-- Reemplazar con una imagen optimizada y adecuada para redes sociales -->
-    <meta property="og:image" content="https://joel12274.github.io/AutoSale-Motors/images/header/logo-autosale.webp">
-    <meta property="og:url" content="https://joel12274.github.io/AutoSale-Motors/">
+    <meta property="og:title" content="AutoSale Motors - Concesionaria de Autos Usados y Nuevos">
+    <meta property="og:description" content="AutoSale Motors - Encuentra los mejores autos usados, seminuevos y nuevos con garantía y financiamiento. La concesionaria de confianza.">
+    <meta property="og:image" content="https://autosalemotors.netlify.app/images/header/logo-autosale.webp">
+    <meta property="og:url" content="https://autosalemotors.netlify.app/">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AutoSale Motors">
 
-    <!-- Agregar JS deferido para no bloquear la carga de la página -->
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AutoSale Motors - Concesionaria de Autos">
+    <meta name="twitter:description" content="Encuentra los mejores autos usados y nuevos con garantía en AutoSale Motors">
+    <meta name="twitter:image" content="https://autosalemotors.netlify.app/images/header/logo-autosale.webp">
+
+    <!-- JSON-LD para SEO local y de negocio -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AutoDealer",
+        "name": "AutoSale Motors",
+        "alternateName": ["AutoSale", "Auto Sale Motors"],
+        "description": "Concesionaria especializada en venta de autos usados, seminuevos y nuevos con garantía y financiamiento.",
+        "url": "https://autosalemotors.netlify.app/",
+        "logo": "https://autosalemotors.netlify.app/images/header/logo-autosale.webp",
+        "sameAs": [
+            "https://autosalemotors.netlify.app/"
+        ],
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://autosalemotors.netlify.app/?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    <!-- Enlace al archivo JavaScript -->
     <script src="js/script.js" defer></script>
 </head>
 
@@ -413,4 +444,5 @@
         <p>&copy; 2025 AutoSale Motors. Todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>
